@@ -1,0 +1,1987 @@
+{
+  "abi": [
+    {
+      "inputs": [],
+      "name": "foo",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    }
+  ],
+  "allSourcePaths": {
+    "0": "contracts/inheritance.sol"
+  },
+  "ast": {
+    "absolutePath": "contracts/inheritance.sol",
+    "exportedSymbols": {
+      "A": [
+        10
+      ],
+      "B": [
+        22
+      ],
+      "C": [
+        34
+      ],
+      "D": [
+        52
+      ],
+      "E": [
+        70
+      ],
+      "F": [
+        88
+      ]
+    },
+    "id": 89,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".10"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:24:0"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "A",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 10,
+        "linearizedBaseContracts": [
+          10
+        ],
+        "name": "A",
+        "nameLocation": "131:1:0",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 8,
+              "nodeType": "Block",
+              "src": "198:27:0",
+              "statements": [
+                {
+                  "expression": {
+                    "hexValue": "41",
+                    "id": 6,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": true,
+                    "kind": "string",
+                    "lValueRequested": false,
+                    "nodeType": "Literal",
+                    "src": "215:3:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_stringliteral_03783fac2efed8fbc9ad443e592ee30e61d65f471140c10ca155e937b435b760",
+                      "typeString": "literal_string \"A\""
+                    },
+                    "value": "A"
+                  },
+                  "functionReturnParameters": 5,
+                  "id": 7,
+                  "nodeType": "Return",
+                  "src": "208:10:0"
+                }
+              ]
+            },
+            "functionSelector": "c2985578",
+            "id": 9,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "foo",
+            "nameLocation": "148:3:0",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 2,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "151:2:0"
+            },
+            "returnParameters": {
+              "id": 5,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 4,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9,
+                  "src": "183:13:0",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 3,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "183:6:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "182:15:0"
+            },
+            "scope": 10,
+            "src": "139:86:0",
+            "stateMutability": "pure",
+            "virtual": true,
+            "visibility": "public"
+          }
+        ],
+        "scope": 89,
+        "src": "122:105:0",
+        "usedErrors": []
+      },
+      {
+        "abstract": false,
+        "baseContracts": [
+          {
+            "baseName": {
+              "id": 11,
+              "name": "A",
+              "nodeType": "IdentifierPath",
+              "referencedDeclaration": 10,
+              "src": "307:1:0"
+            },
+            "id": 12,
+            "nodeType": "InheritanceSpecifier",
+            "src": "307:1:0"
+          }
+        ],
+        "canonicalName": "B",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 22,
+        "linearizedBaseContracts": [
+          22,
+          10
+        ],
+        "name": "B",
+        "nameLocation": "302:1:0",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "baseFunctions": [
+              9
+            ],
+            "body": {
+              "id": 20,
+              "nodeType": "Block",
+              "src": "407:27:0",
+              "statements": [
+                {
+                  "expression": {
+                    "hexValue": "42",
+                    "id": 18,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": true,
+                    "kind": "string",
+                    "lValueRequested": false,
+                    "nodeType": "Literal",
+                    "src": "424:3:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_stringliteral_1f675bff07515f5df96737194ea945c36c41e7b4fcef307b7cd4d0e602a69111",
+                      "typeString": "literal_string \"B\""
+                    },
+                    "value": "B"
+                  },
+                  "functionReturnParameters": 17,
+                  "id": 19,
+                  "nodeType": "Return",
+                  "src": "417:10:0"
+                }
+              ]
+            },
+            "functionSelector": "c2985578",
+            "id": 21,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "foo",
+            "nameLocation": "348:3:0",
+            "nodeType": "FunctionDefinition",
+            "overrides": {
+              "id": 14,
+              "nodeType": "OverrideSpecifier",
+              "overrides": [],
+              "src": "374:8:0"
+            },
+            "parameters": {
+              "id": 13,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "351:2:0"
+            },
+            "returnParameters": {
+              "id": 17,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 16,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 21,
+                  "src": "392:13:0",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 15,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "392:6:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "391:15:0"
+            },
+            "scope": 22,
+            "src": "339:95:0",
+            "stateMutability": "pure",
+            "virtual": true,
+            "visibility": "public"
+          }
+        ],
+        "scope": 89,
+        "src": "293:143:0",
+        "usedErrors": []
+      },
+      {
+        "abstract": false,
+        "baseContracts": [
+          {
+            "baseName": {
+              "id": 23,
+              "name": "A",
+              "nodeType": "IdentifierPath",
+              "referencedDeclaration": 10,
+              "src": "452:1:0"
+            },
+            "id": 24,
+            "nodeType": "InheritanceSpecifier",
+            "src": "452:1:0"
+          }
+        ],
+        "canonicalName": "C",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 34,
+        "linearizedBaseContracts": [
+          34,
+          10
+        ],
+        "name": "C",
+        "nameLocation": "447:1:0",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "baseFunctions": [
+              9
+            ],
+            "body": {
+              "id": 32,
+              "nodeType": "Block",
+              "src": "552:27:0",
+              "statements": [
+                {
+                  "expression": {
+                    "hexValue": "43",
+                    "id": 30,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": true,
+                    "kind": "string",
+                    "lValueRequested": false,
+                    "nodeType": "Literal",
+                    "src": "569:3:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_stringliteral_017e667f4b8c174291d1543c466717566e206df1bfd6f30271055ddafdb18f72",
+                      "typeString": "literal_string \"C\""
+                    },
+                    "value": "C"
+                  },
+                  "functionReturnParameters": 29,
+                  "id": 31,
+                  "nodeType": "Return",
+                  "src": "562:10:0"
+                }
+              ]
+            },
+            "functionSelector": "c2985578",
+            "id": 33,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "foo",
+            "nameLocation": "493:3:0",
+            "nodeType": "FunctionDefinition",
+            "overrides": {
+              "id": 26,
+              "nodeType": "OverrideSpecifier",
+              "overrides": [],
+              "src": "519:8:0"
+            },
+            "parameters": {
+              "id": 25,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "496:2:0"
+            },
+            "returnParameters": {
+              "id": 29,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 28,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 33,
+                  "src": "537:13:0",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 27,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "537:6:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "536:15:0"
+            },
+            "scope": 34,
+            "src": "484:95:0",
+            "stateMutability": "pure",
+            "virtual": true,
+            "visibility": "public"
+          }
+        ],
+        "scope": 89,
+        "src": "438:143:0",
+        "usedErrors": []
+      },
+      {
+        "abstract": false,
+        "baseContracts": [
+          {
+            "baseName": {
+              "id": 35,
+              "name": "B",
+              "nodeType": "IdentifierPath",
+              "referencedDeclaration": 22,
+              "src": "822:1:0"
+            },
+            "id": 36,
+            "nodeType": "InheritanceSpecifier",
+            "src": "822:1:0"
+          },
+          {
+            "baseName": {
+              "id": 37,
+              "name": "C",
+              "nodeType": "IdentifierPath",
+              "referencedDeclaration": 34,
+              "src": "825:1:0"
+            },
+            "id": 38,
+            "nodeType": "InheritanceSpecifier",
+            "src": "825:1:0"
+          }
+        ],
+        "canonicalName": "D",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 52,
+        "linearizedBaseContracts": [
+          52,
+          34,
+          22,
+          10
+        ],
+        "name": "D",
+        "nameLocation": "817:1:0",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "baseFunctions": [
+              21,
+              33
+            ],
+            "body": {
+              "id": 50,
+              "nodeType": "Block",
+              "src": "995:35:0",
+              "statements": [
+                {
+                  "expression": {
+                    "arguments": [],
+                    "expression": {
+                      "argumentTypes": [],
+                      "expression": {
+                        "id": 46,
+                        "name": "super",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": -25,
+                        "src": "1012:5:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_super$_D_$52_$",
+                          "typeString": "type(contract super D)"
+                        }
+                      },
+                      "id": 47,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "foo",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 33,
+                      "src": "1012:9:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_internal_pure$__$returns$_t_string_memory_ptr_$",
+                        "typeString": "function () pure returns (string memory)"
+                      }
+                    },
+                    "id": 48,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "1012:11:0",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_memory_ptr",
+                      "typeString": "string memory"
+                    }
+                  },
+                  "functionReturnParameters": 45,
+                  "id": 49,
+                  "nodeType": "Return",
+                  "src": "1005:18:0"
+                }
+              ]
+            },
+            "functionSelector": "c2985578",
+            "id": 51,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "foo",
+            "nameLocation": "938:3:0",
+            "nodeType": "FunctionDefinition",
+            "overrides": {
+              "id": 42,
+              "nodeType": "OverrideSpecifier",
+              "overrides": [
+                {
+                  "id": 40,
+                  "name": "B",
+                  "nodeType": "IdentifierPath",
+                  "referencedDeclaration": 22,
+                  "src": "965:1:0"
+                },
+                {
+                  "id": 41,
+                  "name": "C",
+                  "nodeType": "IdentifierPath",
+                  "referencedDeclaration": 34,
+                  "src": "968:1:0"
+                }
+              ],
+              "src": "956:14:0"
+            },
+            "parameters": {
+              "id": 39,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "941:2:0"
+            },
+            "returnParameters": {
+              "id": 45,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 44,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 51,
+                  "src": "980:13:0",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 43,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "980:6:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "979:15:0"
+            },
+            "scope": 52,
+            "src": "929:101:0",
+            "stateMutability": "pure",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "scope": 89,
+        "src": "808:224:0",
+        "usedErrors": []
+      },
+      {
+        "abstract": false,
+        "baseContracts": [
+          {
+            "baseName": {
+              "id": 53,
+              "name": "C",
+              "nodeType": "IdentifierPath",
+              "referencedDeclaration": 34,
+              "src": "1048:1:0"
+            },
+            "id": 54,
+            "nodeType": "InheritanceSpecifier",
+            "src": "1048:1:0"
+          },
+          {
+            "baseName": {
+              "id": 55,
+              "name": "B",
+              "nodeType": "IdentifierPath",
+              "referencedDeclaration": 22,
+              "src": "1051:1:0"
+            },
+            "id": 56,
+            "nodeType": "InheritanceSpecifier",
+            "src": "1051:1:0"
+          }
+        ],
+        "canonicalName": "E",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 70,
+        "linearizedBaseContracts": [
+          70,
+          22,
+          34,
+          10
+        ],
+        "name": "E",
+        "nameLocation": "1043:1:0",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "baseFunctions": [
+              21,
+              33
+            ],
+            "body": {
+              "id": 68,
+              "nodeType": "Block",
+              "src": "1221:35:0",
+              "statements": [
+                {
+                  "expression": {
+                    "arguments": [],
+                    "expression": {
+                      "argumentTypes": [],
+                      "expression": {
+                        "id": 64,
+                        "name": "super",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": -25,
+                        "src": "1238:5:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_super$_E_$70_$",
+                          "typeString": "type(contract super E)"
+                        }
+                      },
+                      "id": 65,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "foo",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 21,
+                      "src": "1238:9:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_internal_pure$__$returns$_t_string_memory_ptr_$",
+                        "typeString": "function () pure returns (string memory)"
+                      }
+                    },
+                    "id": 66,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "1238:11:0",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_memory_ptr",
+                      "typeString": "string memory"
+                    }
+                  },
+                  "functionReturnParameters": 63,
+                  "id": 67,
+                  "nodeType": "Return",
+                  "src": "1231:18:0"
+                }
+              ]
+            },
+            "functionSelector": "c2985578",
+            "id": 69,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "foo",
+            "nameLocation": "1164:3:0",
+            "nodeType": "FunctionDefinition",
+            "overrides": {
+              "id": 60,
+              "nodeType": "OverrideSpecifier",
+              "overrides": [
+                {
+                  "id": 58,
+                  "name": "C",
+                  "nodeType": "IdentifierPath",
+                  "referencedDeclaration": 34,
+                  "src": "1191:1:0"
+                },
+                {
+                  "id": 59,
+                  "name": "B",
+                  "nodeType": "IdentifierPath",
+                  "referencedDeclaration": 22,
+                  "src": "1194:1:0"
+                }
+              ],
+              "src": "1182:14:0"
+            },
+            "parameters": {
+              "id": 57,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1167:2:0"
+            },
+            "returnParameters": {
+              "id": 63,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 62,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 69,
+                  "src": "1206:13:0",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 61,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1206:6:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1205:15:0"
+            },
+            "scope": 70,
+            "src": "1155:101:0",
+            "stateMutability": "pure",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "scope": 89,
+        "src": "1034:224:0",
+        "usedErrors": []
+      },
+      {
+        "abstract": false,
+        "baseContracts": [
+          {
+            "baseName": {
+              "id": 71,
+              "name": "A",
+              "nodeType": "IdentifierPath",
+              "referencedDeclaration": 10,
+              "src": "1419:1:0"
+            },
+            "id": 72,
+            "nodeType": "InheritanceSpecifier",
+            "src": "1419:1:0"
+          },
+          {
+            "baseName": {
+              "id": 73,
+              "name": "B",
+              "nodeType": "IdentifierPath",
+              "referencedDeclaration": 22,
+              "src": "1422:1:0"
+            },
+            "id": 74,
+            "nodeType": "InheritanceSpecifier",
+            "src": "1422:1:0"
+          }
+        ],
+        "canonicalName": "F",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 88,
+        "linearizedBaseContracts": [
+          88,
+          22,
+          10
+        ],
+        "name": "F",
+        "nameLocation": "1414:1:0",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "baseFunctions": [
+              9,
+              21
+            ],
+            "body": {
+              "id": 86,
+              "nodeType": "Block",
+              "src": "1496:35:0",
+              "statements": [
+                {
+                  "expression": {
+                    "arguments": [],
+                    "expression": {
+                      "argumentTypes": [],
+                      "expression": {
+                        "id": 82,
+                        "name": "super",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": -25,
+                        "src": "1513:5:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_super$_F_$88_$",
+                          "typeString": "type(contract super F)"
+                        }
+                      },
+                      "id": 83,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "foo",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 21,
+                      "src": "1513:9:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_internal_pure$__$returns$_t_string_memory_ptr_$",
+                        "typeString": "function () pure returns (string memory)"
+                      }
+                    },
+                    "id": 84,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "1513:11:0",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_memory_ptr",
+                      "typeString": "string memory"
+                    }
+                  },
+                  "functionReturnParameters": 81,
+                  "id": 85,
+                  "nodeType": "Return",
+                  "src": "1506:18:0"
+                }
+              ]
+            },
+            "functionSelector": "c2985578",
+            "id": 87,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "foo",
+            "nameLocation": "1439:3:0",
+            "nodeType": "FunctionDefinition",
+            "overrides": {
+              "id": 78,
+              "nodeType": "OverrideSpecifier",
+              "overrides": [
+                {
+                  "id": 76,
+                  "name": "B",
+                  "nodeType": "IdentifierPath",
+                  "referencedDeclaration": 22,
+                  "src": "1466:1:0"
+                },
+                {
+                  "id": 77,
+                  "name": "A",
+                  "nodeType": "IdentifierPath",
+                  "referencedDeclaration": 10,
+                  "src": "1469:1:0"
+                }
+              ],
+              "src": "1457:14:0"
+            },
+            "parameters": {
+              "id": 75,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1442:2:0"
+            },
+            "returnParameters": {
+              "id": 81,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 80,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 87,
+                  "src": "1481:13:0",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 79,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1481:6:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1480:15:0"
+            },
+            "scope": 88,
+            "src": "1430:101:0",
+            "stateMutability": "pure",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "scope": 89,
+        "src": "1405:128:0",
+        "usedErrors": []
+      }
+    ],
+    "src": "32:1503:0"
+  },
+  "bytecode": "608060405234801561001057600080fd5b5060f38061001f6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c8063c298557814602d575b600080fd5b60336047565b604051603e9190606b565b60405180910390f35b606060666040805180820190915260018152602160f91b602082015290565b905090565b600060208083528351808285015260005b81811015609657858101830151858201604001528201607c565b8181111560a7576000604083870101525b50601f01601f191692909201604001939250505056fea2646970667358221220604e38ddfc45dda68683b03baad330ee061878c2829d0d1447728f57c22a3b1164736f6c634300080c0033",
+  "bytecodeSha1": "55e5743d8d02e571aaa85a604b677af13c1192c0",
+  "compiler": {
+    "evm_version": "istanbul",
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "version": "0.8.12+commit.f00d7308"
+  },
+  "contractName": "E",
+  "coverageMap": {
+    "branches": {
+      "0": {}
+    },
+    "statements": {
+      "0": {
+        "B.foo": {
+          "1": [
+            417,
+            427
+          ]
+        },
+        "E.foo": {
+          "0": [
+            1231,
+            1249
+          ]
+        }
+      }
+    }
+  },
+  "dependencies": [
+    "A",
+    "B",
+    "C"
+  ],
+  "deployedBytecode": "6080604052348015600f57600080fd5b506004361060285760003560e01c8063c298557814602d575b600080fd5b60336047565b604051603e9190606b565b60405180910390f35b606060666040805180820190915260018152602160f91b602082015290565b905090565b600060208083528351808285015260005b81811015609657858101830151858201604001528201607c565b8181111560a7576000604083870101525b50601f01601f191692909201604001939250505056fea2646970667358221220604e38ddfc45dda68683b03baad330ee061878c2829d0d1447728f57c22a3b1164736f6c634300080c0033",
+  "deployedSourceMap": "1034:224:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1155:101;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;;1206:13;1238:11;417:10;;;;;;;;;;;;-1:-1:-1;;;417:10:0;;;;;339:95;1238:11;1231:18;;1155:101;:::o;14:597:1:-;126:4;155:2;184;173:9;166:21;216:6;210:13;259:6;254:2;243:9;239:18;232:34;284:1;294:140;308:6;305:1;302:13;294:140;;;403:14;;;399:23;;393:30;369:17;;;388:2;365:26;358:66;323:10;;294:140;;;452:6;449:1;446:13;443:91;;;522:1;517:2;508:6;497:9;493:22;489:31;482:42;443:91;-1:-1:-1;595:2:1;574:15;-1:-1:-1;;570:29:1;555:45;;;;602:2;551:54;;14:597;-1:-1:-1;;;14:597:1:o",
+  "language": "Solidity",
+  "natspec": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "offset": [
+    1034,
+    1258
+  ],
+  "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x4 CALLDATASIZE LT PUSH1 0x28 JUMPI PUSH1 0x0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0xC2985578 EQ PUSH1 0x2D JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH1 0x33 PUSH1 0x47 JUMP JUMPDEST PUSH1 0x40 MLOAD PUSH1 0x3E SWAP2 SWAP1 PUSH1 0x6B JUMP JUMPDEST PUSH1 0x40 MLOAD DUP1 SWAP2 SUB SWAP1 RETURN JUMPDEST PUSH1 0x60 PUSH1 0x66 PUSH1 0x40 DUP1 MLOAD DUP1 DUP3 ADD SWAP1 SWAP2 MSTORE PUSH1 0x1 DUP2 MSTORE PUSH1 0x21 PUSH1 0xF9 SHL PUSH1 0x20 DUP3 ADD MSTORE SWAP1 JUMP JUMPDEST SWAP1 POP SWAP1 JUMP JUMPDEST PUSH1 0x0 PUSH1 0x20 DUP1 DUP4 MSTORE DUP4 MLOAD DUP1 DUP3 DUP6 ADD MSTORE PUSH1 0x0 JUMPDEST DUP2 DUP2 LT ISZERO PUSH1 0x96 JUMPI DUP6 DUP2 ADD DUP4 ADD MLOAD DUP6 DUP3 ADD PUSH1 0x40 ADD MSTORE DUP3 ADD PUSH1 0x7C JUMP JUMPDEST DUP2 DUP2 GT ISZERO PUSH1 0xA7 JUMPI PUSH1 0x0 PUSH1 0x40 DUP4 DUP8 ADD ADD MSTORE JUMPDEST POP PUSH1 0x1F ADD PUSH1 0x1F NOT AND SWAP3 SWAP1 SWAP3 ADD PUSH1 0x40 ADD SWAP4 SWAP3 POP POP POP JUMP INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 PUSH1 0x4E CODESIZE 0xDD 0xFC GASLIMIT 0xDD 0xA6 DUP7 DUP4 0xB0 EXTCODESIZE 0xAA 0xD3 ADDRESS 0xEE MOD XOR PUSH25 0xC2829D0D1447728F57C22A3B1164736F6C634300080C003300 ",
+  "pcMap": {
+    "0": {
+      "offset": [
+        1034,
+        1258
+      ],
+      "op": "PUSH1",
+      "path": "0",
+      "value": "0x80"
+    },
+    "2": {
+      "fn": null,
+      "offset": [
+        1034,
+        1258
+      ],
+      "op": "PUSH1",
+      "path": "0",
+      "value": "0x40"
+    },
+    "4": {
+      "fn": null,
+      "offset": [
+        1034,
+        1258
+      ],
+      "op": "MSTORE",
+      "path": "0"
+    },
+    "5": {
+      "fn": null,
+      "offset": [
+        1034,
+        1258
+      ],
+      "op": "CALLVALUE",
+      "path": "0"
+    },
+    "6": {
+      "fn": null,
+      "offset": [
+        1034,
+        1258
+      ],
+      "op": "DUP1",
+      "path": "0"
+    },
+    "7": {
+      "fn": null,
+      "offset": [
+        1034,
+        1258
+      ],
+      "op": "ISZERO",
+      "path": "0"
+    },
+    "8": {
+      "fn": null,
+      "offset": [
+        1034,
+        1258
+      ],
+      "op": "PUSH1",
+      "path": "0",
+      "value": "0xF"
+    },
+    "10": {
+      "fn": null,
+      "offset": [
+        1034,
+        1258
+      ],
+      "op": "JUMPI",
+      "path": "0"
+    },
+    "11": {
+      "fn": null,
+      "offset": [
+        1034,
+        1258
+      ],
+      "op": "PUSH1",
+      "path": "0",
+      "value": "0x0"
+    },
+    "13": {
+      "fn": null,
+      "offset": [
+        1034,
+        1258
+      ],
+      "op": "DUP1",
+      "path": "0"
+    },
+    "14": {
+      "dev": "Cannot send ether to nonpayable function",
+      "fn": null,
+      "offset": [
+        1034,
+        1258
+      ],
+      "op": "REVERT",
+      "path": "0"
+    },
+    "15": {
+      "fn": null,
+      "offset": [
+        1034,
+        1258
+      ],
+      "op": "JUMPDEST",
+      "path": "0"
+    },
+    "16": {
+      "fn": null,
+      "offset": [
+        1034,
+        1258
+      ],
+      "op": "POP",
+      "path": "0"
+    },
+    "17": {
+      "fn": null,
+      "offset": [
+        1034,
+        1258
+      ],
+      "op": "PUSH1",
+      "path": "0",
+      "value": "0x4"
+    },
+    "19": {
+      "fn": null,
+      "offset": [
+        1034,
+        1258
+      ],
+      "op": "CALLDATASIZE",
+      "path": "0"
+    },
+    "20": {
+      "fn": null,
+      "offset": [
+        1034,
+        1258
+      ],
+      "op": "LT",
+      "path": "0"
+    },
+    "21": {
+      "fn": null,
+      "offset": [
+        1034,
+        1258
+      ],
+      "op": "PUSH1",
+      "path": "0",
+      "value": "0x28"
+    },
+    "23": {
+      "fn": null,
+      "offset": [
+        1034,
+        1258
+      ],
+      "op": "JUMPI",
+      "path": "0"
+    },
+    "24": {
+      "fn": null,
+      "offset": [
+        1034,
+        1258
+      ],
+      "op": "PUSH1",
+      "path": "0",
+      "value": "0x0"
+    },
+    "26": {
+      "fn": null,
+      "offset": [
+        1034,
+        1258
+      ],
+      "op": "CALLDATALOAD",
+      "path": "0"
+    },
+    "27": {
+      "fn": null,
+      "offset": [
+        1034,
+        1258
+      ],
+      "op": "PUSH1",
+      "path": "0",
+      "value": "0xE0"
+    },
+    "29": {
+      "fn": null,
+      "offset": [
+        1034,
+        1258
+      ],
+      "op": "SHR",
+      "path": "0"
+    },
+    "30": {
+      "fn": null,
+      "offset": [
+        1034,
+        1258
+      ],
+      "op": "DUP1",
+      "path": "0"
+    },
+    "31": {
+      "fn": null,
+      "offset": [
+        1034,
+        1258
+      ],
+      "op": "PUSH4",
+      "path": "0",
+      "value": "0xC2985578"
+    },
+    "36": {
+      "fn": null,
+      "offset": [
+        1034,
+        1258
+      ],
+      "op": "EQ",
+      "path": "0"
+    },
+    "37": {
+      "fn": null,
+      "offset": [
+        1034,
+        1258
+      ],
+      "op": "PUSH1",
+      "path": "0",
+      "value": "0x2D"
+    },
+    "39": {
+      "fn": null,
+      "offset": [
+        1034,
+        1258
+      ],
+      "op": "JUMPI",
+      "path": "0"
+    },
+    "40": {
+      "fn": null,
+      "offset": [
+        1034,
+        1258
+      ],
+      "op": "JUMPDEST",
+      "path": "0"
+    },
+    "41": {
+      "fn": null,
+      "offset": [
+        1034,
+        1258
+      ],
+      "op": "PUSH1",
+      "path": "0",
+      "value": "0x0"
+    },
+    "43": {
+      "fn": null,
+      "offset": [
+        1034,
+        1258
+      ],
+      "op": "DUP1",
+      "path": "0"
+    },
+    "44": {
+      "first_revert": true,
+      "fn": null,
+      "offset": [
+        1034,
+        1258
+      ],
+      "op": "REVERT",
+      "path": "0"
+    },
+    "45": {
+      "fn": "E.foo",
+      "offset": [
+        1155,
+        1256
+      ],
+      "op": "JUMPDEST",
+      "path": "0"
+    },
+    "46": {
+      "fn": "E.foo",
+      "offset": [
+        1155,
+        1256
+      ],
+      "op": "PUSH1",
+      "path": "0",
+      "value": "0x33"
+    },
+    "48": {
+      "fn": "E.foo",
+      "offset": [
+        1155,
+        1256
+      ],
+      "op": "PUSH1",
+      "path": "0",
+      "value": "0x47"
+    },
+    "50": {
+      "fn": "E.foo",
+      "jump": "i",
+      "offset": [
+        1155,
+        1256
+      ],
+      "op": "JUMP",
+      "path": "0"
+    },
+    "51": {
+      "fn": "E.foo",
+      "offset": [
+        1155,
+        1256
+      ],
+      "op": "JUMPDEST",
+      "path": "0"
+    },
+    "52": {
+      "fn": "E.foo",
+      "offset": [
+        1155,
+        1256
+      ],
+      "op": "PUSH1",
+      "path": "0",
+      "value": "0x40"
+    },
+    "54": {
+      "fn": "E.foo",
+      "offset": [
+        1155,
+        1256
+      ],
+      "op": "MLOAD",
+      "path": "0"
+    },
+    "55": {
+      "fn": "E.foo",
+      "offset": [
+        1155,
+        1256
+      ],
+      "op": "PUSH1",
+      "path": "0",
+      "value": "0x3E"
+    },
+    "57": {
+      "fn": "E.foo",
+      "offset": [
+        1155,
+        1256
+      ],
+      "op": "SWAP2",
+      "path": "0"
+    },
+    "58": {
+      "fn": "E.foo",
+      "offset": [
+        1155,
+        1256
+      ],
+      "op": "SWAP1",
+      "path": "0"
+    },
+    "59": {
+      "fn": "E.foo",
+      "offset": [
+        1155,
+        1256
+      ],
+      "op": "PUSH1",
+      "path": "0",
+      "value": "0x6B"
+    },
+    "61": {
+      "fn": "E.foo",
+      "jump": "i",
+      "offset": [
+        1155,
+        1256
+      ],
+      "op": "JUMP",
+      "path": "0"
+    },
+    "62": {
+      "fn": "E.foo",
+      "offset": [
+        1155,
+        1256
+      ],
+      "op": "JUMPDEST",
+      "path": "0"
+    },
+    "63": {
+      "fn": "E.foo",
+      "offset": [
+        1155,
+        1256
+      ],
+      "op": "PUSH1",
+      "path": "0",
+      "value": "0x40"
+    },
+    "65": {
+      "fn": "E.foo",
+      "offset": [
+        1155,
+        1256
+      ],
+      "op": "MLOAD",
+      "path": "0"
+    },
+    "66": {
+      "fn": "E.foo",
+      "offset": [
+        1155,
+        1256
+      ],
+      "op": "DUP1",
+      "path": "0"
+    },
+    "67": {
+      "fn": "E.foo",
+      "offset": [
+        1155,
+        1256
+      ],
+      "op": "SWAP2",
+      "path": "0"
+    },
+    "68": {
+      "fn": "E.foo",
+      "offset": [
+        1155,
+        1256
+      ],
+      "op": "SUB",
+      "path": "0"
+    },
+    "69": {
+      "fn": "E.foo",
+      "offset": [
+        1155,
+        1256
+      ],
+      "op": "SWAP1",
+      "path": "0"
+    },
+    "70": {
+      "fn": "E.foo",
+      "offset": [
+        1155,
+        1256
+      ],
+      "op": "RETURN",
+      "path": "0"
+    },
+    "71": {
+      "fn": "E.foo",
+      "offset": [
+        1155,
+        1256
+      ],
+      "op": "JUMPDEST",
+      "path": "0"
+    },
+    "72": {
+      "fn": "E.foo",
+      "offset": [
+        1206,
+        1219
+      ],
+      "op": "PUSH1",
+      "path": "0",
+      "value": "0x60"
+    },
+    "74": {
+      "fn": "E.foo",
+      "offset": [
+        1238,
+        1249
+      ],
+      "op": "PUSH1",
+      "path": "0",
+      "statement": 0,
+      "value": "0x66"
+    },
+    "76": {
+      "fn": "B.foo",
+      "offset": [
+        417,
+        427
+      ],
+      "op": "PUSH1",
+      "path": "0",
+      "statement": 1,
+      "value": "0x40"
+    },
+    "78": {
+      "fn": "B.foo",
+      "offset": [
+        417,
+        427
+      ],
+      "op": "DUP1",
+      "path": "0"
+    },
+    "79": {
+      "fn": "B.foo",
+      "offset": [
+        417,
+        427
+      ],
+      "op": "MLOAD",
+      "path": "0"
+    },
+    "80": {
+      "fn": "B.foo",
+      "offset": [
+        417,
+        427
+      ],
+      "op": "DUP1",
+      "path": "0"
+    },
+    "81": {
+      "fn": "B.foo",
+      "offset": [
+        417,
+        427
+      ],
+      "op": "DUP3",
+      "path": "0"
+    },
+    "82": {
+      "fn": "B.foo",
+      "offset": [
+        417,
+        427
+      ],
+      "op": "ADD",
+      "path": "0"
+    },
+    "83": {
+      "fn": "B.foo",
+      "offset": [
+        417,
+        427
+      ],
+      "op": "SWAP1",
+      "path": "0"
+    },
+    "84": {
+      "fn": "B.foo",
+      "offset": [
+        417,
+        427
+      ],
+      "op": "SWAP2",
+      "path": "0"
+    },
+    "85": {
+      "fn": "B.foo",
+      "offset": [
+        417,
+        427
+      ],
+      "op": "MSTORE",
+      "path": "0"
+    },
+    "86": {
+      "fn": "B.foo",
+      "offset": [
+        417,
+        427
+      ],
+      "op": "PUSH1",
+      "path": "0",
+      "value": "0x1"
+    },
+    "88": {
+      "fn": "B.foo",
+      "offset": [
+        417,
+        427
+      ],
+      "op": "DUP2",
+      "path": "0"
+    },
+    "89": {
+      "fn": "B.foo",
+      "offset": [
+        417,
+        427
+      ],
+      "op": "MSTORE",
+      "path": "0"
+    },
+    "90": {
+      "op": "PUSH1",
+      "value": "0x21"
+    },
+    "92": {
+      "op": "PUSH1",
+      "value": "0xF9"
+    },
+    "94": {
+      "op": "SHL"
+    },
+    "95": {
+      "fn": "B.foo",
+      "offset": [
+        417,
+        427
+      ],
+      "op": "PUSH1",
+      "path": "0",
+      "value": "0x20"
+    },
+    "97": {
+      "fn": "B.foo",
+      "offset": [
+        417,
+        427
+      ],
+      "op": "DUP3",
+      "path": "0"
+    },
+    "98": {
+      "fn": "B.foo",
+      "offset": [
+        417,
+        427
+      ],
+      "op": "ADD",
+      "path": "0"
+    },
+    "99": {
+      "fn": "B.foo",
+      "offset": [
+        417,
+        427
+      ],
+      "op": "MSTORE",
+      "path": "0"
+    },
+    "100": {
+      "fn": "B.foo",
+      "offset": [
+        417,
+        427
+      ],
+      "op": "SWAP1",
+      "path": "0"
+    },
+    "101": {
+      "fn": "B.foo",
+      "offset": [
+        339,
+        434
+      ],
+      "op": "JUMP",
+      "path": "0"
+    },
+    "102": {
+      "fn": "E.foo",
+      "offset": [
+        1238,
+        1249
+      ],
+      "op": "JUMPDEST",
+      "path": "0"
+    },
+    "103": {
+      "fn": "E.foo",
+      "offset": [
+        1231,
+        1249
+      ],
+      "op": "SWAP1",
+      "path": "0"
+    },
+    "104": {
+      "fn": "E.foo",
+      "offset": [
+        1231,
+        1249
+      ],
+      "op": "POP",
+      "path": "0"
+    },
+    "105": {
+      "fn": "E.foo",
+      "offset": [
+        1155,
+        1256
+      ],
+      "op": "SWAP1",
+      "path": "0"
+    },
+    "106": {
+      "fn": "E.foo",
+      "jump": "o",
+      "offset": [
+        1155,
+        1256
+      ],
+      "op": "JUMP",
+      "path": "0"
+    },
+    "107": {
+      "op": "JUMPDEST"
+    },
+    "108": {
+      "op": "PUSH1",
+      "value": "0x0"
+    },
+    "110": {
+      "op": "PUSH1",
+      "value": "0x20"
+    },
+    "112": {
+      "op": "DUP1"
+    },
+    "113": {
+      "op": "DUP4"
+    },
+    "114": {
+      "op": "MSTORE"
+    },
+    "115": {
+      "op": "DUP4"
+    },
+    "116": {
+      "op": "MLOAD"
+    },
+    "117": {
+      "op": "DUP1"
+    },
+    "118": {
+      "op": "DUP3"
+    },
+    "119": {
+      "op": "DUP6"
+    },
+    "120": {
+      "op": "ADD"
+    },
+    "121": {
+      "op": "MSTORE"
+    },
+    "122": {
+      "op": "PUSH1",
+      "value": "0x0"
+    },
+    "124": {
+      "op": "JUMPDEST"
+    },
+    "125": {
+      "op": "DUP2"
+    },
+    "126": {
+      "op": "DUP2"
+    },
+    "127": {
+      "op": "LT"
+    },
+    "128": {
+      "op": "ISZERO"
+    },
+    "129": {
+      "op": "PUSH1",
+      "value": "0x96"
+    },
+    "131": {
+      "op": "JUMPI"
+    },
+    "132": {
+      "op": "DUP6"
+    },
+    "133": {
+      "op": "DUP2"
+    },
+    "134": {
+      "op": "ADD"
+    },
+    "135": {
+      "op": "DUP4"
+    },
+    "136": {
+      "op": "ADD"
+    },
+    "137": {
+      "op": "MLOAD"
+    },
+    "138": {
+      "op": "DUP6"
+    },
+    "139": {
+      "op": "DUP3"
+    },
+    "140": {
+      "op": "ADD"
+    },
+    "141": {
+      "op": "PUSH1",
+      "value": "0x40"
+    },
+    "143": {
+      "op": "ADD"
+    },
+    "144": {
+      "op": "MSTORE"
+    },
+    "145": {
+      "op": "DUP3"
+    },
+    "146": {
+      "op": "ADD"
+    },
+    "147": {
+      "op": "PUSH1",
+      "value": "0x7C"
+    },
+    "149": {
+      "op": "JUMP"
+    },
+    "150": {
+      "op": "JUMPDEST"
+    },
+    "151": {
+      "op": "DUP2"
+    },
+    "152": {
+      "op": "DUP2"
+    },
+    "153": {
+      "op": "GT"
+    },
+    "154": {
+      "op": "ISZERO"
+    },
+    "155": {
+      "op": "PUSH1",
+      "value": "0xA7"
+    },
+    "157": {
+      "op": "JUMPI"
+    },
+    "158": {
+      "op": "PUSH1",
+      "value": "0x0"
+    },
+    "160": {
+      "op": "PUSH1",
+      "value": "0x40"
+    },
+    "162": {
+      "op": "DUP4"
+    },
+    "163": {
+      "op": "DUP8"
+    },
+    "164": {
+      "op": "ADD"
+    },
+    "165": {
+      "op": "ADD"
+    },
+    "166": {
+      "op": "MSTORE"
+    },
+    "167": {
+      "op": "JUMPDEST"
+    },
+    "168": {
+      "op": "POP"
+    },
+    "169": {
+      "op": "PUSH1",
+      "value": "0x1F"
+    },
+    "171": {
+      "op": "ADD"
+    },
+    "172": {
+      "op": "PUSH1",
+      "value": "0x1F"
+    },
+    "174": {
+      "op": "NOT"
+    },
+    "175": {
+      "op": "AND"
+    },
+    "176": {
+      "op": "SWAP3"
+    },
+    "177": {
+      "op": "SWAP1"
+    },
+    "178": {
+      "op": "SWAP3"
+    },
+    "179": {
+      "op": "ADD"
+    },
+    "180": {
+      "op": "PUSH1",
+      "value": "0x40"
+    },
+    "182": {
+      "op": "ADD"
+    },
+    "183": {
+      "op": "SWAP4"
+    },
+    "184": {
+      "op": "SWAP3"
+    },
+    "185": {
+      "op": "POP"
+    },
+    "186": {
+      "op": "POP"
+    },
+    "187": {
+      "op": "POP"
+    },
+    "188": {
+      "jump": "o",
+      "op": "JUMP"
+    }
+  },
+  "sha1": "102f7895898cddae18b74b4fbe864a4caf8fc7e5",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.10;\n\n/* Graph of inheritance\n    A\n   / \\\n  B   C\n / \\ /\nF  D,E\n\n*/\n\ncontract A {\n    function foo() public pure virtual returns (string memory) {\n        return \"A\";\n    }\n}\n\n// Contracts inherit other contracts by using the keyword 'is'.\ncontract B is A {\n    // Override A.foo()\n    function foo() public pure virtual override returns (string memory) {\n        return \"B\";\n    }\n}\n\ncontract C is A {\n    // Override A.foo()\n    function foo() public pure virtual override returns (string memory) {\n        return \"C\";\n    }\n}\n\n// Contracts can inherit from multiple parent contracts.\n// When a function is called that is defined multiple times in\n// different contracts, parent contracts are searched from\n// right to left, and in depth-first manner.\n\ncontract D is B, C {\n    // D.foo() returns \"C\"\n    // since C is the right most parent contract with function foo()\n    function foo() public pure override(B, C) returns (string memory) {\n        return super.foo();\n    }\n}\n\ncontract E is C, B {\n    // E.foo() returns \"B\"\n    // since B is the right most parent contract with function foo()\n    function foo() public pure override(C, B) returns (string memory) {\n        return super.foo();\n    }\n}\n\n// Inheritance must be ordered from \u201cmost base-like\u201d to \u201cmost derived\u201d.\n// Swapping the order of A and B will throw a compilation error.\ncontract F is A, B {\n    function foo() public pure override(B, A) returns (string memory) {\n        return super.foo();\n    }\n}\n\n",
+  "sourceMap": "1034:224:0:-:0;;;;;;;;;;;;;;;;;;;",
+  "sourcePath": "contracts/inheritance.sol",
+  "type": "contract"
+}
