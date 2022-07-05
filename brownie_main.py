@@ -1,8 +1,5 @@
-
-# change to ropsten network
 from brownie import network
 network.disconnect()
-network.connect('ropsten')
 network.connect('mainnet')
 network.show_active()
 
